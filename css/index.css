@@ -590,6 +590,7 @@ section#HomePhoto {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 20px;
     padding: 20px;
+    background: #fff;
 }
 .contactDesc {
     text-align: center;
@@ -623,7 +624,7 @@ section#HomePhoto {
 }
 .contactTextarea {
     flex: 0 0 100%;
-    padding: 15px;
+    padding: 10px;
 }
 .contactTextarea textarea{
 
@@ -649,8 +650,93 @@ button.submitContact {
 button.submitContact:hover {
     background: #000000;
 }
+section#homeBlog {
+    background-image: linear-gradient(180deg, #eeeeed 70%, #ffffff 30%);
+}
+/*footer*/
+footer#footer {
+    padding-top: 50px;
+    margin-top: 20px;
+    background: #e6ebeb;
+    text-align: center;
+}
+.footerLogo {
+    padding-bottom: 50px;
+}
+footer#footer .footerLogo img{
+    width: 300px;
+}
+footer#footer .footerText span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+footer#footer .footerSocial ul {
+    display: flex;
+    justify-content: center;
+}
+footer#footer .footerSocial ul li {
+    margin-right: calc(20px / 2);
+    margin-left: calc(20px / 2);
+}
+footer#footer .footerSocial ul li svg {
+    transition: fill .3s;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+footer#footer .footerSocial ul li svg path{
+    fill: #dfbf86;
+}
+footer#footer .footerSocial ul li svg:hover path{
+    fill: #83b340;
+}
+footer#footer .footerSocial ul li svg polygon{
+    fill: #dfbf86;
+}
+footer#footer .footerSocial ul li svg:hover polygon{
+    fill: #83b340;
+}
+.footerCopyRight {
+    margin-top: 20px;
+    border-top: 1px solid #000000;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/*end footer*/
 /*end home contact*/
+section#HomeContact {
+    background-image: linear-gradient(180deg, #eeeeed 70%, #ffffff 30%);
+}
+section#HomePhoto {
+    padding-top: 100px;
+    background-image: linear-gradient(180deg, #ffffff 60%, #eeeeed 40%);
+}
+section#homeBlog {
+    background-image: linear-gradient(180deg, #eeeeed 70%, #ffffff 30%);
+}
 @media (max-width: 991px) {
+    .mega-menu-list ul {
+        padding-left: 20px;
+    }
+    .contactFormInput {
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+    .contactContent {
+        width: 98%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .contactTextarea {
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+    .header-mid-datngay {
+        overflow: hidden;
+        display: none;
+    }
     /*photo*/
     .tab {
         overflow: hidden;

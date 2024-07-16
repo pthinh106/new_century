@@ -1,3 +1,4 @@
+
 let slideIndex = 0;
 // let slides = document.getElementsByClassName("slide");
 let slides = document.querySelectorAll('#slider-home .slide');
@@ -30,6 +31,10 @@ function prevSlide() {
     } else {
         slideIndex = slides.length - 1;
     }
+    showSlides();
+}
+function currentSlide(index) {
+    slideIndex = index - 1;
     showSlides();
 }
 
