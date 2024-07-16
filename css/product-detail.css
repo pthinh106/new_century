@@ -1,0 +1,221 @@
+.colection-product-images {
+    overflow: hidden;
+}
+.slider {
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+    overflow: hidden;
+    position: relative;
+    margin: 5px -5px;
+    /*border: 1px solid #eee;*/
+}
+
+.slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 20%; /* Hiển thị 5 hình ảnh mỗi lần */
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slide-wrapper img:hover{
+    border: 1px solid#1A1AFF;
+}
+
+
+
+.control-btn {
+    cursor: pointer;
+    padding: 10px 2px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+.control-btn.prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.control-btn.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.control-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.product-title {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+    max-height: 48px;
+    max-width: 665px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    vertical-align: sub;
+}
+.product-caption {
+    margin-top: .625rem;
+    min-height: 1.55rem;
+    position: relative;
+}
+.review .star span {
+    width: 15px;
+    height: 15px;
+    background-image: url(https://stcv4.hnammobile.com/v10/images/star-gray.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 2px;
+}
+.product-caption .review .star span.active {
+    background-image: url(../images/star.svg);
+}
+.product-caption .review .star span:first-child {
+    margin-left: 0;
+}
+.caption-not {
+    padding: 0 15px;
+}
+.caption-not:not(:first-child) {
+    border-left: 1px solid rgba(0, 0, 0, .14);
+    padding: 0 15px;
+}
+.caption-not:first-child {
+    padding-left: 0;
+}
+.num-comment {
+    color: #222;
+    font-size: 1rem;
+    margin-right: 5px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #555;
+}
+.text-review {
+    color: #ee4d2d;
+    border-bottom: 1px solid #ee4d2d;
+    font-size: 1rem;
+    margin-right: 5px;
+    padding-bottom: 1px;
+}
+.text-comment {
+    color: #767676;
+    font-size: .875rem;
+    text-transform: capitalize;
+    margin-right: 5px;
+    padding: 4px 0;
+}
+.num-sold {
+    color: #222;
+    font-size: 1rem;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #555;
+}
+.text-sold {
+    color: #767676;
+    font-size: .875rem;
+    text-transform: capitalize;
+    margin-right: 5px;
+    padding: 4px 0;
+}
+.product-colect-price {
+    background: #fafafa;
+    padding: 15px 20px;
+}
+.price-del {
+    color: #929292;
+    font-size: 1rem;
+    margin-right: 10px;
+    -webkit-text-decoration: line-through;
+    text-decoration: line-through;
+}
+.price-show {
+    color: #ee4d2d;
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+.promotion-show {
+    background: #ee4d2d;
+    border-radius: 2px;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-left: 15px;
+    padding: 2px 4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.data-option {
+    margin-top: 1.5625rem;
+    padding: 0 1.25rem;
+}
+.data-option .title-option {
+    align-items: center;
+    color: #757575;
+    flex-shrink: 0;
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0;
+    text-transform: capitalize;
+    width: 110px;
+}
+.data-option .list-option-data {
+    flex-basis: 515px;
+    flex-wrap: wrap;
+    margin-top: -8px;
+    max-height: 220px;
+    max-width: 515px;
+    overflow-y: auto;
+}
+.data-option .option-item {
+    align-items: center;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .09);
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .8);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    margin: 8px 8px 0 0;
+    min-height: 2.5rem;
+    min-width: 5rem;
+    outline: 0;
+    overflow: visible;
+    padding: .5rem;
+    position: relative;
+    text-align: left;
+    word-break: break-word;
+}
+.data-option .list-option {
+    margin-bottom: 24px;
+    align-items: baseline;
+}
+.data-option .option-item:hover {
+    border:1px solid #1A1AFF;
+    color: #1A1AFF;
+}
+.data-option .option-item img {
+    margin-right: 5px;
+}
