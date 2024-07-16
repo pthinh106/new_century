@@ -1247,6 +1247,7 @@ header.header .main-header .align-items-center .header-right .header-action_acco
         background:  #dfbf86;
         padding: 0 10px;
         display: block;
+        
     }
     header.nav-main .align-items-center .header-mid .title_menu::before {
         transform: rotate(45deg);
