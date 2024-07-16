@@ -787,6 +787,7 @@ section#homeBlog {
     }
     .booking {
         min-height: 140px;
+        padding-top: 40px;
     }
     .dot {
         display: none;
