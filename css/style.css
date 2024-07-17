@@ -46,6 +46,10 @@ input[type="checkbox"] {
     }
 }
 
+section#video-home {
+    position: static;
+}
+
 .bread-crumb {
     background: #f5f5f5;
     margin-bottom: 20px;
@@ -134,11 +138,7 @@ ul {
 svg:not(:root) {
     overflow: hidden;
 }
-p.title-footer {
-    margin-top: 0;
-    margin-bottom: .5rem;
-    font-weight: bold;
-}
+
 header.nav-main svg path{
     stroke: #1A1AFF;
     fill: #1A1AFF;
@@ -157,7 +157,56 @@ header.nav-main svg path{
     border-radius: 0;
     letter-spacing: 0;
 }
-
+/*footer*/
+footer#footer {
+    padding-top: 50px;
+    margin-top: 20px;
+    background: #e6ebeb;
+    text-align: center;
+}
+.footerLogo {
+    padding-bottom: 50px;
+}
+footer#footer .footerLogo img{
+    width: 300px;
+}
+footer#footer .footerText span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+footer#footer .footerSocial ul {
+    display: flex;
+    justify-content: center;
+}
+footer#footer .footerSocial ul li {
+    margin-right: calc(20px / 2);
+    margin-left: calc(20px / 2);
+}
+footer#footer .footerSocial ul li svg {
+    transition: fill .3s;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+footer#footer .footerSocial ul li svg path{
+    fill: #dfbf86;
+}
+footer#footer .footerSocial ul li svg:hover path{
+    fill: #83b340;
+}
+footer#footer .footerSocial ul li svg polygon{
+    fill: #dfbf86;
+}
+footer#footer .footerSocial ul li svg:hover polygon{
+    fill: #83b340;
+}
+.footerCopyRight {
+    margin-top: 20px;
+    border-top: 1px solid #000000;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/*end footer*/
 /*header top*/
 .header-top.d-flex {
     flex-direction: row;
@@ -251,7 +300,37 @@ header.nav-main svg path{
         transform: translateX(0%);
     }
 }
+.elementor-video {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid transparent;
+    object-fit: cover;
+}
 @media (min-width: 992px) {
+    .video-full {
+        position: relative;
+        margin-top: -10%;
+    }
+    .booking {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 40px;
+    }
+    .ng-scope.clearfix {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        min-height: 90px;
+    }
+    .bws-swp-col.swp-col1 {
+        flex: 0 30%;
+        margin-right: 2%;
+    }
+    .bws-swp-col.swp-col2 {
+        flex: 0 30%;
+        margin-right: 2%;
+    }
     .btn-datngay2 {
         padding: 14px 24px;
         color: #ffffff;
@@ -316,7 +395,9 @@ header.nav-main svg path{
 
 }
 @media (max-width: 991px) {
-
+    .mega-menu-list ul {
+        padding-left: 20px;
+    }
     .header-content {
         text-align: center;
         justify-content: space-between;
@@ -1244,10 +1325,9 @@ header.header .main-header .align-items-center .header-right .header-action_acco
 
     header.nav-main .align-items-center .header-mid .title_menu {
         width: 100%;
-        background:  #dfbf86;
+        background:  #1A1AFF;
         padding: 0 10px;
         display: block;
-        
     }
     header.nav-main .align-items-center .header-mid .title_menu::before {
         transform: rotate(45deg);
