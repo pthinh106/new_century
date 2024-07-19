@@ -395,6 +395,9 @@ footer#footer .footerSocial ul li svg:hover polygon{
 
 }
 @media (max-width: 991px) {
+    header#header {
+        position: relative!important;
+    }
     .main-menu-our.d-flex {
         flex: 0 0 100%;
         justify-content: center;
