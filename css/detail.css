@@ -365,6 +365,9 @@ section#HomeContact {
         width: 100%;
         height: auto;
     }
+    .detailItemFeature {
+        flex: 0 0 100%;
+    }
     .detailRoomTab {
         padding-left: 0;
     }
