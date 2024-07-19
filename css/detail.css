@@ -368,6 +368,14 @@ section#HomeContact {
     .detailItemFeature {
         flex: 0 0 100%;
     }
+    span.ItemFeatureTitle {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    span.ItemFeatureContent {
+        font-weight: 400;
+        font-size: 14px;
+    }
     .detailRoomTab {
         padding-left: 0;
     }
