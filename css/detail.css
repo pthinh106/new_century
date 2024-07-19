@@ -344,6 +344,9 @@ section#homeBlog {
 section#HomeContact {
     background-image: linear-gradient(180deg, #eeeeed 70%, #ffffff 30%);
 }
+.slide-room-img img {
+    width: 100%;
+}
 @media (min-width: 992px) {
     #cateRoomSlide .swiper-button-prev {
         left: -32px;
