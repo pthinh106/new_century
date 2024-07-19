@@ -367,6 +367,7 @@ section#HomeContact {
     }
     .detailItemFeature {
         flex: 0 0 100%;
+        padding: 15px 0;
     }
     span.ItemFeatureTitle {
         font-size: 15px;
