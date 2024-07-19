@@ -395,6 +395,21 @@ footer#footer .footerSocial ul li svg:hover polygon{
 
 }
 @media (max-width: 991px) {
+    .main-menu-our.d-flex {
+        flex: 0 0 100%;
+        justify-content: center;
+    }
+    header.nav-main .align-items-center .header-mid #nav {
+        overflow-y: auto;
+        max-height: 100vh;
+        height: 100vh;
+        flex: 0 0 80%;
+        max-width: 400px;
+        padding-top: 20px;
+    }
+    .header-mid-datngay {
+        display: none;
+    }
     .mega-menu-list ul {
         padding-left: 20px;
     }
