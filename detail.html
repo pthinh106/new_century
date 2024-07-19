@@ -146,7 +146,13 @@
 <main id="main" style=" position: relative; ">
     <section id="detailBanner">
         <div class="BannerFull">
-            <img src="images/NewCentury-Family-banner-1920x600.webp" alt="">
+            <picture>
+                <source media="(min-width: 992px)" srcset="images/NewCentury-Family-banner-1920x600.webp">
+
+                <source media="(max-width: 991px)" srcset="images/Deluxe-City-View-800x400.webp">
+
+                <img src="images/Deluxe-City-View-800x400.webp" alt="Responsive image">
+            </picture>
         </div>
     </section>
     <section id="DetailRoomData" class="pt-5">
