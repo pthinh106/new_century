@@ -1,0 +1,371 @@
+.BannerFull img {
+    width: 100%;
+}
+.PhotoContent {
+    width: 800px;
+    height: 400px;
+}
+.detailRoomTitle {
+    padding-top: 50px;
+}
+.detailRoomTitle h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.detailRoomTab {
+    padding-left: 15px;
+    position: relative;
+}
+.detailTitleSub {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #5a5a5a;
+}
+.detailLine {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+.detailRoomFeature {
+    display: flex;
+    flex-wrap: wrap;
+}
+.detailItemFeature {
+    display: flex;
+    flex: 0 0 40%;
+    align-items: center;
+    padding: 30px 0;
+}
+.detailItemFeature svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 17px;
+}
+span.ItemFeatureTitle {
+    font-size: 18px;
+    font-weight: 500;
+}
+span.ItemFeatureContent {
+    font-weight: 400;
+}
+.detailRoomDesc {
+    padding: 30px 0;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+.detailRoomAmenitiesList {
+    padding: 30px 0;
+}
+.detailRoomAmenitiesList ul{
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+.detailRoomAmenitiesList ul li {
+    position: relative;
+    padding-left: 1.5em;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.detailRoomAmenitiesList ul li::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    line-height: inherit;
+}
+.button-more span {
+    padding: 15px 35px;
+    background: #cccccc;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.button-more span {
+    padding: 15px 35px;
+    background: #dfbf86;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+    border: 1px solid #dfbf86;
+}
+.button-more span:hover {
+     background: #ffffff;
+     color: #000000;
+}
+.tab {
+    margin-bottom: 25px;
+}
+.formRequestItem label:after {
+    content: "*";
+    color: red;
+    padding-inline-start: .2em;
+}
+button.tablinks {
+    text-transform: uppercase;
+    font-size: 18px;
+    border: transparent;
+    background: transparent;
+    font-weight: 500;
+    padding: 0;
+    color: #949494;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    padding-bottom: 8px;
+}
+button.tablinks:first-child {
+    margin-right: 50px;
+}
+button.tablinks.active {
+    color: #000;
+    border-bottom: 1px solid #000000;
+}
+button.tablinks:hover{
+    color: #000;
+    border-bottom: 1px solid #000000;
+}
+.formRequestItem {
+    background: #e8e8e8;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.formRequestItem input, .formRequestItem textarea {
+    background: #e8e8e8;
+    border: 1px solid transparent;
+    padding: 0;
+}
+.formRequestItem label {
+    color: #747070;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.formRequestButton button {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #ffffff;
+    color: #000000;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.formRequestButton button:hover {
+    border: 1px solid #b9924c;
+    color: #b9924c;
+}
+
+/*Room*/
+section#cateRoom {
+    padding-top: 50px;
+}
+.cateRoomTop {
+    text-align: center;
+}
+.cateRoomTitle {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.cateRoomDesc {
+    padding-bottom: 20px;
+}
+.container-slider {
+    position: relative;
+}
+.slide-room-img {
+    padding: 15px;
+    background: #dfbf86;
+}
+#cateRoom .slide-room .slide-room-img img {
+    scale: 1;
+    transition: all 0.3s linear;
+}
+
+#cateRoom .slide-room .slide-room-img img {
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+}
+#cateRoom .slide-room:hover .slide-room-img img {
+    scale: 1.05;
+}
+
+.slide-room-info {
+    padding: 10px;
+}
+.slide-room-info {
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.slide-room-info-ks {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+}
+.slide-room-info-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.slide-room-info-title img{
+    width: 47px;
+    padding-right: 10px;
+    margin-top: -6px;
+}
+.slide-room-line {
+    width: 60%;
+    border-bottom: 1px solid;
+    height: 14px;
+}
+.slide-room-info-link-text {
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.slide-room {
+    border: 1px solid #f4eeeecc;
+    border-radius: 8px;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -30px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    transition: all 0.3s ease;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet:hover {
+    background: #007aff;
+    opacity: 1;
+}
+.slideService .mySwiper2 .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.swiper-pagination-bullet-active {
+    width: 50px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+/*Home contact*/
+.contactContent {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.contactTitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+.contactInfo {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #fff;
+}
+.contactDesc {
+    text-align: center;
+    padding: 10px;
+}
+.contactFormLine {
+    display: flex;
+    flex-direction: initial;
+    margin-top: 20px;
+}
+.contactFormInput {
+    flex: 0 0 50%;
+}
+.contactFormLine {
+    display: flex;
+    flex-direction: unset;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.contactFormInput {
+    flex: 0 0 50%;
+    padding: 10px;
+}
+.contactFormInput input{
+    padding: 15px;
+    background: #eee;
+}
+.contactFormInput select{
+    padding: 15px;
+    background: #eee;
+}
+.contactTextarea {
+    flex: 0 0 100%;
+    padding: 10px;
+}
+.contactTextarea textarea{
+
+    padding: 15px;
+    background: #eee;
+}
+textarea:focus {
+    border: 1px solid transparent; /* Đường viền khi focus */
+    outline: none; /* Loại bỏ outline mặc định của trình duyệt */
+}
+.contactSubmit {
+    flex: 0 0 100%;
+    text-align: center;
+}
+button.submitContact {
+    padding: 10px 40px;
+    background: #dfbf86;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+button.submitContact:hover {
+    background: #000000;
+}
+section#homeBlog {
+    background-image: linear-gradient(180deg, #eeeeed 70%, #ffffff 30%);
+}
+
+/*end home contact*/
+section#HomeContact {
+    background-image: linear-gradient(180deg, #eeeeed 70%, #ffffff 30%);
+}
+@media (min-width: 992px) {
+    #cateRoomSlide .swiper-button-prev {
+        left: -32px;
+    }
+    #cateRoomSlide .swiper-button-next {
+        right: -32px;
+    }
+}
+@media (max-width: 992px) {
+
+    .detailSlideRoom {
+        width: 80%;
+        margin: auto;
+    }
+    .PhotoContent {
+        width: 100%;
+        height: auto;
+    }
+    .detailRoomTab {
+        padding-left: 0;
+    }
+    .detailRoomTab {
+        position: static!important;
+    }
+}
